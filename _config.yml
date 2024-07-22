@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Info"
   pronouns         : "he/ him"  
-  #bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : #"Short biography for the left-hand sidebar"
+  location         : "Copenhagen"
+  employer         : "Copenhagen Business School"
   uri              : # URL
   email            : "none@example.org" 
 
