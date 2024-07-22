@@ -26,7 +26,7 @@ author:
   pronouns         : "he/ him"  
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Copenhagen"
-  employer         : "Copenhagen Business School"
+  employer         : "Copenhagen Business \n School"
   uri              : # URL
   email            : "dr.egb@cbs.dk" 
 
