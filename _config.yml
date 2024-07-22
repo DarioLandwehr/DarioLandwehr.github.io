@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo_landwehr.jpg"
+  avatar           : "photo_landwehr.png"
   name             : "Info"
   pronouns         : "he/ him"  
   bio              : #"Short biography for the left-hand sidebar"
