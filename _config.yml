@@ -14,7 +14,7 @@ name                     : &name "Dario Landwehr"
 description              : &description "personal description"
 URL                      : "https://dariolandwehr.github.io/"
 baseurl                  : "/DarioLandwehr" # the subpath of your site, e.g. "/blog"
-repository               : "DarioLandwehr.github.io"
+repository               : "academicpages/academicpages.github.io" #"DarioLandwehr.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
