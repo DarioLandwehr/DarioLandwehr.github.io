@@ -15,7 +15,7 @@ I use methods from Natural Language Processing to analyze unstructured text data
 
 Substantialy my interest focuses on the behavior of political elites with a special focus on actors of the extreme right. 
 
-Before joining CBS I completed my undergraduate studies in Poitical Science at Leibniz University Hannover (Germany) and obtained a M.Sc. in Social data Sciecne from the University of Copenhagen (Denmark). 
+<p style='text-align: justify;'> Before joining CBS I completed my undergraduate studies in Poitical Science at Leibniz University Hannover (Germany) and obtained a M.Sc. in Social data Sciecne from the University of Copenhagen (Denmark). </p>
 
 [link to image by SQUAREBRACKETS text and then in NORMALBRACKETS path in github like images slash image png]: #
 
