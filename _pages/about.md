@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-<p style='text-align: justify;'> I am Pre-Doc at the [Department of International Economics, Business and Government](https://www.cbs.dk/en/research/departments-and-centres/department-of-international-economics-government-and-business/staff/dregb) at Copenhagen Business School (CBS). In my research, I am interested in applying computational methods to study and measure political phenomena broadly in the area of Comparative Politics. </p>
+<p style='text-align: justify;'> I am Pre-Doc at the <a href="https://www.cbs.dk/en/research/departments-and-centres/department-of-international-economics-government-and-business/staff/dregb">Department of International Economics, Business and Government</a> at Copenhagen Business School (CBS). In my research, I am interested in applying computational methods to study and measure political phenomena broadly in the area of Comparative Politics. </p>
 
 <p style='text-align: justify;'> I use methods from Natural Language Processing to analyze unstructured text data e.g. from Social Media or parliamentary records. Substantialy my interest focuses on the behavior of political elites with a special focus on actors of the extreme right. </p>
 
