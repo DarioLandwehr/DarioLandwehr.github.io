@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[**\[Download CV\]**](https://raw.githubusercontent.com/DarioLandwehr/DarioLandwehr.github.io/master/files/CV_09_2024.pdf)
+<a href="https://raw.githubusercontent.com/DarioLandwehr/DarioLandwehr.github.io/master/files/CV_09_2024.pdf" target="_blank"><strong>[Download CV]</strong></a>
 
 
