@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Dario Landwehr's Homepage"
+title                    : "Dario Landwehr"
 title_separator          : "-"
 name                     : &name "Dario Landwehr"
 description              : &description "personal description"
@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "profile_dario.png"
   name             : "Dario Landwehr"
-  pronouns         : # example: "she/her"  
-  bio              : "Computational Social Science"
+  pronouns         : "he/him"  
+  bio              : #"Computational Social Science"
   location         : "Copenhagen, Denmark"
   employer         : "Copenhagen Business School"
   uri              : # URL
