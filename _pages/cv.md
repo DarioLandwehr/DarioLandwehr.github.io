@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="https://dariolandwehr.github.io/files/CV_DL.pdf" target="_blank"><strong>[Download CV]</strong></a>
+Please find my Curriculum Vitae here: <a href="https://dariolandwehr.github.io/files/CV_DL.pdf" target="_blank"><strong>[Download CV]</strong></a>
 
 
