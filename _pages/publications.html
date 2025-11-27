@@ -5,32 +5,88 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Publications List</title>
+  <style>
+    .publication {
+      margin: 1em 0;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1em;
+    }
 
-{% include base_path %}
+    .title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+    .toggle-row {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-top: 0.3em;
+      color: #0073aa;
+      font-size: 0.95em;
+    }
 
+    .arrow {
+      display: inline-block;
+      transition: transform 0.3s ease;
+      margin-right: 0.5em;
+    }
+
+    .arrow.open {
+      transform: rotate(90deg);
+    }
+
+    .abstract {
+      display: none;
+      margin-top: 0.5em;
+      font-size: 0.95em;
+      color: #444;
+    }
+
+    .abstract.show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="publication">
+    <div class="title">Publication Title One</div>
+    <div class="toggle-row" onclick="toggleAbstract(this)">
+      <span class="arrow">&#9654;</span>
+      <span>Abstract</span>
+    </div>
+    <div class="abstract">
+      This is the abstract for Publication Title One. It provides a summary of the publication's content.
+    </div>
+  </div>
+
+  <div class="publication">
+    <div class="title">Publication Title Two</div>
+    <div class="toggle-row" onclick="toggleAbstract(this)">
+      <span class="arrow">&#9654;</span>
+      <span>Abstract</span>
+    </div>
+    <div class="abstract">
+      This is the abstract for Publication Title Two. It discusses the key findings and significance of the study.
+    </div>
+  </div>
+
+  <script>
+    function toggleAbstract(row) {
+      const abstract = row.nextElementSibling;
+      const arrow = row.querySelector('.arrow');
+      abstract.classList.toggle('show');
+      arrow.classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
 
 
