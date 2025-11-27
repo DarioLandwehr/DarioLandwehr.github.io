@@ -73,7 +73,7 @@ author_profile: true
 <body>
 
   <div class="publication">
-    <div class="title">Höhne, B., Bouju, A., & <b>Landwehr, D.</b>b> (2024). Supporting Diversity on Party Lists: Attitudes of German Party Gatekeepers Towards Enhancing Immigrant Representation. Representation, 60(3), 395-414.</div>
+    <div class="title">Höhne, B., Bouju, A., & <b>Landwehr, D.</b> (2024). Supporting Diversity on Party Lists: Attitudes of German Party Gatekeepers Towards Enhancing Immigrant Representation. Representation, 60(3), 395-414.</div>
     <div class="toggle-row" onclick="toggleAbstract(this)">
       <span class="arrow">&#9654;</span>
       <span>Abstract</span>
@@ -89,9 +89,17 @@ author_profile: true
   <script>
     function toggleAbstract(row) {
       const abstract = row.nextElementSibling;
+      const paperLink = abstract.nextElementSibling;
       const arrow = row.querySelector('.arrow');
+  
       abstract.classList.toggle('show');
       arrow.classList.toggle('open');
+  
+      if (abstract.classList.contains('show')) {
+        paperLink.classList.add('show');
+      } else {
+        paperLink.classList.remove('show');
+      }
     }
   </script>
 
